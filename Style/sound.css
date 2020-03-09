@@ -1,0 +1,51 @@
+        html {
+            height: 100%;
+            border: 0px;
+            
+        }
+
+        body {
+           
+            background-color: #964bdb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+
+        }
+
+        p {
+            
+            color: #070708;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input,
+        button {
+            outline: 0px;
+/*     Cu asta de deasupra scot marginea alba de la butoane*/
+            background-color: #ad70b5;
+            font-family: sans-serif;
+            color: #423f86;
+            padding: 10px;
+            font-size: 20px;
+            width: 200px;
+            border: none;
+            border-radius: 10px;
+        }
+div{
+   
+    font-size: 150%;
+    color: #070708;
+    font-weight: bold;
+}
+ a:hover{
+            color:chartreuse;
+        }
+a:active{
+    color: fuchsia;
+}
+
+ 

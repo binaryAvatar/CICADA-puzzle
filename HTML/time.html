@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Time</title>
+
+    <link rel="stylesheet" href="../Style/time.css" />
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="display1">
+        <p>
+          <input
+            id="mySeconds"
+            type="number"
+            min="0"
+            placeholder="Convert seconds to..."
+          />
+        </p>
+
+        <p>
+          <button id="convertSeconds">Convert</button>
+        </p>
+
+        <p id="result1"></p>
+      </div>
+
+      <div class="story">
+        <h3>
+          Fibonacci's first six meaningful moments become minutes, then hours,
+          then days... But what are the hours and the minutes if not a mere
+          unlimited flow of seconds?
+        </h3>
+      </div>
+
+      <div class="display2">
+        <p>
+          <input
+            id="yS"
+            type="number"
+            min="0"
+            placeholder="Years become seconds..."
+          />
+        </p>
+
+        <p>
+          <input
+            id="dS"
+            type="number"
+            min="0"
+            placeholder="Days become seconds..."
+          />
+        </p>
+
+        <p>
+          <input
+            id="hS"
+            type="number"
+            min="0"
+            placeholder="Hours become seconds..."
+          />
+        </p>
+
+        <p>
+          <input
+            id="mS"
+            type="number"
+            min="0"
+            placeholder="Minutes become seconds..."
+          />
+        </p>
+
+        <p>
+          <input id="sS" type="number" min="0" placeholder="Seconds..." />
+        </p>
+
+        <p>
+          <button id="convToSeconds">Convert</button>
+        </p>
+
+        <p id="result2"></p>
+
+        <p>
+          <input id="inputAnswer" type="text" placeholder="   beyond time   " />
+        </p>
+
+        <p>
+          <button id="butVerify">Answer</button>
+        </p>
+
+        <p id="messageDisplay"></p>
+      </div>
+      <div class="displayVideo">
+        <iframe
+          width="360"
+          height="210"
+          src="https://www.youtube.com/embed/lXyCRP871VI"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+
+  <script src="../App/time.js"></script>
+</html>
